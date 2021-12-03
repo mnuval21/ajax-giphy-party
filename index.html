@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+  <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-center mt-4 mb-4">Giphy Party!</h1>
+    <h2 class="text-center">Search for a GIF</h2>
+
+    <form class="form-inline d-flex justify-content-center mb-4" action="" id="search">
+      <input type="text" id="search-input" name="search" placeholder="Search for a GIF">
+      <input type="submit" class="btn btn-outline-success" id="search-button" value="Search">
+      <button class="btn btn-outline-danger" id="remove">Remove All Images</button>
+    </form>
+
+  
+    <div class="row" id="results">
+
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
